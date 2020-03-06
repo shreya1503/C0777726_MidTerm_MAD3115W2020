@@ -105,7 +105,10 @@
                             <outlet property="delegate" destination="O0f-aj-tIO" id="k1g-20-TBx"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="PTE-ND-K47"/>
+                    <navigationItem key="navigationItem" title="CUSTOMERS" id="PTE-ND-K47">
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="QRc-6n-R1s"/>
+                        <barButtonItem key="rightBarButtonItem" title="New Customer" id="g29-YJ-zww"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBr-1A-puP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
