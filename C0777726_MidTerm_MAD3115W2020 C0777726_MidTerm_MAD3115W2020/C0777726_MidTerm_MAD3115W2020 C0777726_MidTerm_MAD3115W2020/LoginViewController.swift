@@ -10,13 +10,34 @@ import UIKit
 
 class LoginViewController: UIViewController
 {
-
+    @IBOutlet weak var txtEmail: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    
+    //@IBOutlet weak var lblRememberMe: UILabel!
+    @IBOutlet weak var switchRmbr: UISwitch!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+              
+        RememberMe()
     }
 
-
+    //@IBAction func RememberMe(_ sender: UISwitch) {}
+    
+    func RememberMe()
+    {
+        let userDefault =  UserDefaults.standard
+        
+        if let email = userDefault.string(forKey: "email")
+        {
+            txtEmail.text = email
+            
+            if let pass = userDefault.string(forKey: "pass")
+            {
+                txtPassword.text = pass
+            }
+        }
+    }
+    
 }
-
