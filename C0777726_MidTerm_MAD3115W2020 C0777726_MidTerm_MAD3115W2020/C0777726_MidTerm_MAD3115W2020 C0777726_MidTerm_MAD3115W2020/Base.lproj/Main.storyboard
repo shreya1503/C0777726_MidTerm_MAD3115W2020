@@ -12,7 +12,7 @@
             <objects>
                 <viewController title="Login View Controller" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMA-Jy-76A">
@@ -87,7 +87,7 @@
             <objects>
                 <tableViewController title="Customer List Table View Controller" id="O0f-aj-tIO" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SO2-68-kl1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -118,8 +118,23 @@
             </objects>
             <point key="canvasLocation" x="1839" y="139"/>
         </scene>
+        <!--Add New Customer View Controller-->
+        <scene sceneID="Bxq-ea-AcX">
+            <objects>
+                <viewController title="Add New Customer View Controller" id="c9a-eJ-4pD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qTf-Kh-Dzo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mnp-Y0-olN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ayu-QN-fvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2654" y="139"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="J13-wl-NEg"/>
+        <segue reference="nbc-Ko-SkB"/>
     </inferredMetricsTieBreakers>
 </document>
