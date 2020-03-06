@@ -14,6 +14,7 @@
 		9B6C92EB2411DE04004DEB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C92EA2411DE04004DEB06 /* Assets.xcassets */; };
 		9B6C92EE2411DE04004DEB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C92EC2411DE04004DEB06 /* LaunchScreen.storyboard */; };
 		9B6C92F62411E3EE004DEB06 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C92F52411E3EE004DEB06 /* CustomerListTableViewController.swift */; };
+		9BA1633E24130459007940E3 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1633D24130459007940E3 /* Image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B6C92ED2411DE04004DEB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B6C92EF2411DE04004DEB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B6C92F52411E3EE004DEB06 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		9BA1633D24130459007940E3 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = Assets.xcassets/Image.imageset/Image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		9B6C92E02411DE03004DEB06 /* C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020 */ = {
 			isa = PBXGroup;
 			children = (
+				9BA1633D24130459007940E3 /* Image.png */,
 				9B6C92E12411DE03004DEB06 /* AppDelegate.swift */,
 				9B6C92E32411DE03004DEB06 /* SceneDelegate.swift */,
 				9B6C92E52411DE03004DEB06 /* LoginViewController.swift */,
@@ -131,6 +134,7 @@
 				9B6C92EE2411DE04004DEB06 /* LaunchScreen.storyboard in Resources */,
 				9B6C92EB2411DE04004DEB06 /* Assets.xcassets in Resources */,
 				9B6C92E92411DE03004DEB06 /* Main.storyboard in Resources */,
+				9BA1633E24130459007940E3 /* Image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

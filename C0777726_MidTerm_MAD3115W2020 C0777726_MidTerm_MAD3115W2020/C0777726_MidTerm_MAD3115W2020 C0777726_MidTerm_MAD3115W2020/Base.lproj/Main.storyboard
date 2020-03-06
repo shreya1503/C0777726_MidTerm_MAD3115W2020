@@ -106,7 +106,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="CUSTOMERS" id="PTE-ND-K47">
-                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="QRc-6n-R1s"/>
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="QRc-6n-R1s">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="nbc-Ko-SkB"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="New Customer" id="g29-YJ-zww"/>
                     </navigationItem>
                 </tableViewController>
@@ -115,4 +119,7 @@
             <point key="canvasLocation" x="1839" y="139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="J13-wl-NEg"/>
+    </inferredMetricsTieBreakers>
 </document>
