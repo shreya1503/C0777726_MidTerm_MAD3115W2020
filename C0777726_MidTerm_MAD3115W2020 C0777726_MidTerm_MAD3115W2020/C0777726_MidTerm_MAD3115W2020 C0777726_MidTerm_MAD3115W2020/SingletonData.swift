@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Singleton
+class SingletonData
 {
    private static let singletonInstance = Singleton()
     
@@ -16,10 +16,19 @@ class Singleton
 
     private init(){}
 
-    /*static func getInstance() -> Singelton
+    static func getInstance() -> SingeltonData
     {
         return singletonInstance
-    }*/
+    }
     
+    func addCustomer(customer: Customer)
+    {
+        self.custList.updateValue(customer, forKey : customer.customerID)
+    }
     
+    func getAllCustomers() -> [Customer]
+    {
+        return Array(custList.values)
+    }
+  
 }
