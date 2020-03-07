@@ -18,6 +18,7 @@
 		9BA1634024130577007940E3 /* AddNewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1633F24130577007940E3 /* AddNewCustomerViewController.swift */; };
 		9BEFCE0824144FAF006569F6 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0724144FAF006569F6 /* Singleton.swift */; };
 		9BEFCE0A24145664006569F6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0924145664006569F6 /* Customer.swift */; };
+		9BEFCE0C2414595F006569F6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0B2414595F006569F6 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9BA1633F24130577007940E3 /* AddNewCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCustomerViewController.swift; sourceTree = "<group>"; };
 		9BEFCE0724144FAF006569F6 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		9BEFCE0924145664006569F6 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		9BEFCE0B2414595F006569F6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9BA1633F24130577007940E3 /* AddNewCustomerViewController.swift */,
 				9BEFCE0724144FAF006569F6 /* Singleton.swift */,
 				9BEFCE0924145664006569F6 /* Customer.swift */,
+				9BEFCE0B2414595F006569F6 /* Extension.swift */,
 			);
 			path = "C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				9BA1634024130577007940E3 /* AddNewCustomerViewController.swift in Sources */,
 				9B6C92E22411DE03004DEB06 /* AppDelegate.swift in Sources */,
 				9B6C92E42411DE03004DEB06 /* SceneDelegate.swift in Sources */,
+				9BEFCE0C2414595F006569F6 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
