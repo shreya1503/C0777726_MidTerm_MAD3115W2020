@@ -10,9 +10,9 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Login View Controller" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController title="Login View Controller" id="BYZ-38-t0r" customClass="LoginViewController" customModule="C0777726_MidTerm_MAD3115W2020_C0777726_MidTerm_MAD3115W2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMA-Jy-76A">
@@ -61,7 +61,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="switchRmbr" destination="ZGr-yl-nHg" id="JMs-PX-jVK"/>
                         <outlet property="txtEmail" destination="Sy0-Pu-3d6" id="jg2-Xt-Q78"/>
                         <outlet property="txtPassword" destination="7Iy-oU-ASr" id="Gkc-L5-FTu"/>
                     </connections>
@@ -93,7 +92,7 @@
             <objects>
                 <tableViewController title="Customer List Table View Controller" id="O0f-aj-tIO" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SO2-68-kl1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -131,9 +130,9 @@
         <!--Add New Customer View Controller-->
         <scene sceneID="Bxq-ea-AcX">
             <objects>
-                <viewController title="Add New Customer View Controller" id="c9a-eJ-4pD" sceneMemberID="viewController">
+                <viewController title="Add New Customer View Controller" id="c9a-eJ-4pD" customClass="AddNewCustomerViewController" customModule="C0777726_MidTerm_MAD3115W2020_C0777726_MidTerm_MAD3115W2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qTf-Kh-Dzo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="mnp-Y0-olN"/>
@@ -146,6 +145,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nbc-Ko-SkB"/>
+        <segue reference="J13-wl-NEg"/>
     </inferredMetricsTieBreakers>
 </document>

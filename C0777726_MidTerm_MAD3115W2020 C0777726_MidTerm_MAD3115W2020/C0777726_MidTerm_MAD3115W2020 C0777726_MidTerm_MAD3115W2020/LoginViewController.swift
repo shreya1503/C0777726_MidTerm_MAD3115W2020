@@ -13,8 +13,6 @@ class LoginViewController: UIViewController
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
 
-    //@IBOutlet weak var switchRmbr: UISwitch!
-    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -22,25 +20,22 @@ class LoginViewController: UIViewController
        // RememberMe()
     }
 
+    
        
     @IBAction func btnLogin(_ sender: UIBarButtonItem)
     {
-        let alert = UIAlertController(title: "ERROR", message: "Check Your Email ID Or Password", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "ERROR", message: "Check Your Email ID Or Password", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Invalid Email Or Password", style: .default	))
+
+        self.present(alertController, animated: true, completion: nil)
+        
+        
+        if txtEmail.text == "admin" && txtPassword.text == "admin123"
+        {
+            print(txtEmail)
+        }
     }
     
-    /* func RememberMe()
-         {
-             let userDefault =  UserDefaults.standard
-             
-             if let email = userDefault.string(forKey: "email")
-             {
-                 txtEmail.text = email
-                 
-                 if let pass = userDefault.string(forKey: "pass")
-                 {
-                     txtPassword.text = pass
-                 }
-             }
-         }*/
+    
     
 }
