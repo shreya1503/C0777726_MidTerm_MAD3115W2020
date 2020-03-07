@@ -113,7 +113,7 @@
                     <navigationItem key="navigationItem" title="CUSTOMERS" id="PTE-ND-K47">
                         <barButtonItem key="leftBarButtonItem" title="Log Out" id="QRc-6n-R1s">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="nbc-Ko-SkB"/>
+                                <segue destination="Nlb-LY-a3K" kind="unwind" unwindAction="unWindLogoutFromAnyScreenWithStoryboardSegue:" id="8aD-G3-Arf"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="New Customer" id="g29-YJ-zww">
@@ -124,6 +124,7 @@
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBr-1A-puP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Nlb-LY-a3K" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1839" y="139"/>
         </scene>
@@ -144,7 +145,4 @@
             <point key="canvasLocation" x="2654" y="139"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="J13-wl-NEg"/>
-    </inferredMetricsTieBreakers>
 </document>
