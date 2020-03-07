@@ -59,6 +59,14 @@ class LoginViewController: UIViewController
                     {
                         alertMessage(message: "Email Is Empty")
                     }
+                    else if txtPassword.text == ""
+                    {
+                        alertMessage(message: "Password Is Empty")
+                    }
+                    else
+                    {
+                        alertMessage(message: "Please Enter Valid Email Or Password")
+                    }
                 }
     }
 
