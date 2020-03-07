@@ -171,12 +171,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Add Record"/>
+                                <connections>
+                                    <action selector="btnAddRecord:" destination="c9a-eJ-4pD" eventType="touchUpInside" id="Kta-sa-N4a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="mnp-Y0-olN"/>
                     </view>
                     <navigationItem key="navigationItem" title="NEW CUSTOMER" id="Mip-f6-Ye5"/>
+                    <connections>
+                        <outlet property="txtCustomerEmail" destination="mT7-2T-uDz" id="yFg-Gh-fUV"/>
+                        <outlet property="txtCustomerId" destination="280-G1-sR5" id="Ela-8J-B7T"/>
+                        <outlet property="txtCustomerfirstName" destination="fWl-O1-B4w" id="3h1-Fu-lr2"/>
+                        <outlet property="txtCustomerlastName" destination="jnV-y8-9KQ" id="5wK-d1-KSa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ayu-QN-fvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

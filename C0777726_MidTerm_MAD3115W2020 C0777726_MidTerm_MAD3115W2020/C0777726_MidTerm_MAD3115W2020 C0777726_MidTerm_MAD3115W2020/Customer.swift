@@ -10,7 +10,7 @@ import Foundation
 
 class Customer
 {
-    var customerID : String
+       var customerID : String
        var firstName : String
        var lastName : String
        var fullName : String
