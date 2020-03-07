@@ -39,7 +39,7 @@ class LoginViewController: UIViewController
     @IBAction func btnLogin(_ sender: UIBarButtonItem)
     {
         
-               if self.txtEmail.text == "Shreya" && self.txtPassword.text == "Shreya123"
+               if self.txtEmail.text == "Shreya@gmail.com" && self.txtPassword.text == "Shreya123"
                 {
                     let userDefault = UserDefaults.standard
                    if switchRemember.isOn
