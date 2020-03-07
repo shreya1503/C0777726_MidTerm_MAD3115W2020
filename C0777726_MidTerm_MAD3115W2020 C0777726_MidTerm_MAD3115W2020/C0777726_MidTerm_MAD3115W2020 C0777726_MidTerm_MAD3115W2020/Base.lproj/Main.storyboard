@@ -61,6 +61,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="switchRemember" destination="ZGr-yl-nHg" id="7k1-8D-fE6"/>
                         <outlet property="txtEmail" destination="Sy0-Pu-3d6" id="jg2-Xt-Q78"/>
                         <outlet property="txtPassword" destination="7Iy-oU-ASr" id="Gkc-L5-FTu"/>
                     </connections>
@@ -138,7 +139,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="mnp-Y0-olN"/>
                     </view>
-                    <navigationItem key="navigationItem" title="BILL DETAILS" id="Mip-f6-Ye5"/>
+                    <navigationItem key="navigationItem" title="NEW CUSTOMER" id="Mip-f6-Ye5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ayu-QN-fvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
