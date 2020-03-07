@@ -17,8 +17,7 @@ class LoginViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-              
-       // RememberMe()
+        RememberMe()
     }
 
     private func RememberMe()
@@ -62,6 +61,11 @@ class LoginViewController: UIViewController
                     self.present(alertController, animated: true, completion: nil)
 
                 }
+    }
+
+    func alertMessage(message : String)
+    {
+        
     }
     
     @IBAction func unWindLogoutFromAnyScreen(storyboardSegue: UIStoryboardSegue)
