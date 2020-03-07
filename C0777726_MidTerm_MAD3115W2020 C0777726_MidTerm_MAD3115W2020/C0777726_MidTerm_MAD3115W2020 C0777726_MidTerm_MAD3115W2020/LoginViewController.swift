@@ -55,7 +55,10 @@ class LoginViewController: UIViewController
                 }
                 else
                 {
-                    
+                    if txtEmail.text == ""
+                    {
+                        alertMessage(message: "Email Is Empty")
+                    }
                 }
     }
 
