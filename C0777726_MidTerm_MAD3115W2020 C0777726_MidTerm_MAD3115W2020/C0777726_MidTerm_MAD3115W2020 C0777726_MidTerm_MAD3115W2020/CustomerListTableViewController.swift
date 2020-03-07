@@ -10,7 +10,10 @@ import UIKit
 
 class CustomerListTableViewController: UITableViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var tblCustomer: UITableView!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations

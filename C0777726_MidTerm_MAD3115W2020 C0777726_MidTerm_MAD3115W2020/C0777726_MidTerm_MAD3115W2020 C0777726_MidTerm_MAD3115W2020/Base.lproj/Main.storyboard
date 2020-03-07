@@ -52,6 +52,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="SIGN IN " id="apS-G5-WLe">
                         <barButtonItem key="rightBarButtonItem" title="Log In" id="O4X-Ba-ePh">
                             <connections>
@@ -60,6 +61,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="switchRemember" destination="ZGr-yl-nHg" id="7k1-8D-fE6"/>
                         <outlet property="txtEmail" destination="Sy0-Pu-3d6" id="jg2-Xt-Q78"/>
@@ -91,7 +93,7 @@
         <!--Customer List Table View Controller-->
         <scene sceneID="Zq2-7g-HCc">
             <objects>
-                <tableViewController title="Customer List Table View Controller" id="O0f-aj-tIO" sceneMemberID="viewController">
+                <tableViewController title="Customer List Table View Controller" id="O0f-aj-tIO" customClass="CustomerListTableViewController" customModule="C0777726_MidTerm_MAD3115W2020_C0777726_MidTerm_MAD3115W2020" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SO2-68-kl1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -107,8 +109,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="O0f-aj-tIO" id="klx-ga-fOZ"/>
-                            <outlet property="delegate" destination="O0f-aj-tIO" id="k1g-20-TBx"/>
+                            <outlet property="dataSource" destination="O0f-aj-tIO" id="y86-No-MDA"/>
+                            <outlet property="delegate" destination="O0f-aj-tIO" id="1Bi-4O-HFH"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="CUSTOMERS" id="PTE-ND-K47">
@@ -123,6 +125,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tblCustomer" destination="SO2-68-kl1" id="JGm-fA-gBt"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBr-1A-puP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Nlb-LY-a3K" userLabel="Exit" sceneMemberID="exit"/>

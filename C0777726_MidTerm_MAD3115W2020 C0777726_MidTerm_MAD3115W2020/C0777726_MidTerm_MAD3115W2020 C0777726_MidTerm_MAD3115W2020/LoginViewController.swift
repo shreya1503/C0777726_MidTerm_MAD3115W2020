@@ -41,7 +41,7 @@ class LoginViewController: UIViewController
                if self.txtEmail.text == "Shreya@gmail.com" && self.txtPassword.text == "Shreya123"
                 {
                     let userDefault = UserDefaults.standard
-                   if switchRemember.isOn
+                    if switchRemember.isOn
                     {
                         
                         userDefault.setValue(txtEmail.text, forKey: "Email")
@@ -55,11 +55,11 @@ class LoginViewController: UIViewController
                 }
                 else
                 {
-                    if txtEmail.text == ""
+                    if self.txtEmail.text == ""
                     {
                         alertMessage(message: "Email Is Empty")
                     }
-                    else if txtPassword.text == ""
+                    else if self.txtPassword.text == ""
                     {
                         alertMessage(message: "Password Is Empty")
                     }
