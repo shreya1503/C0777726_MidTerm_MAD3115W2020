@@ -16,10 +16,10 @@ class Singleton
 
     private init(){}
 
-    static func getInstance() -> Singelton
+    /*static func getInstance() -> Singelton
     {
         return singletonInstance
-    }
+    }*/
     
     
 }

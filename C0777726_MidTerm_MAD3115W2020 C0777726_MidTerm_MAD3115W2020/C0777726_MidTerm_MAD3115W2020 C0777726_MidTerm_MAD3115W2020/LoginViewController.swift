@@ -55,11 +55,11 @@ class LoginViewController: UIViewController
                 }
                 else
                 {
-                    if self.txtEmail.text == ""
+                    if self.txtEmail.text == " "
                     {
                         alertMessage(message: "Email Is Empty")
                     }
-                    else if self.txtPassword.text == ""
+                    else if self.txtPassword.text == " "
                     {
                         alertMessage(message: "Password Is Empty")
                     }

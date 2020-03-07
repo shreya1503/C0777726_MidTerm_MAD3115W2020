@@ -18,7 +18,7 @@ class CustomerListTableViewController: UITableViewController {
     {
         super.viewDidLoad()
         
-        customerNames = Singleton.getInstance().getAllCustomers()
+        //customerNames = Singleton.getInstance().getAllCustomers()
         let userDefault = UserDefaults.standard
         
     }
