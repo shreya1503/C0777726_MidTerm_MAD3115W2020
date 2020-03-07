@@ -10,5 +10,16 @@ import Foundation
 
 class Singleton
 {
+   private static let singletonInstance = Singleton()
+    
+    private lazy var custList: [String: Customer] = [:]
+
+    private init(){}
+
+    static func getInstance() -> Singelton
+    {
+        return singletonInstance
+    }
+    
     
 }
