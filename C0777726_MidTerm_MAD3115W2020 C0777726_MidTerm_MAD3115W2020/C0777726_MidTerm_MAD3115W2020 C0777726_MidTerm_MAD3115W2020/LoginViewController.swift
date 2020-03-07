@@ -55,16 +55,17 @@ class LoginViewController: UIViewController
                 }
                 else
                 {
-                    let alertController = UIAlertController(title: "ERROR", message: "Check Your Email ID Or Password", preferredStyle: .alert)
-                    alertController.addAction(UIAlertAction(title: "Invalid Email Or Password", style: .default))
-
-                    self.present(alertController, animated: true, completion: nil)
-
+                    
                 }
     }
 
     func alertMessage(message : String)
     {
+        
+        let alertController = UIAlertController(title: "ERROR", message: "Check Your Email ID Or Password", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Invalid Email Or Password", style: .default))
+
+        self.present(alertController, animated: true, completion: nil)
         
     }
     
