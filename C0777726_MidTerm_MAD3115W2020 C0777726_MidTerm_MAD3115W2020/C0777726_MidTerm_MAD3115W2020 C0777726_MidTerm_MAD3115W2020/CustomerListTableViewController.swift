@@ -44,7 +44,7 @@ extension CustomerListTableViewController: UITableViewDataSource, UITableViewDel
 
         return cell!
     }
-   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         let customer = SingletonData.getInstance().getAllCustomers()
         let selectedCustomer = customer[indexPath.row]
@@ -54,6 +54,4 @@ extension CustomerListTableViewController: UITableViewDataSource, UITableViewDel
         self.navigationController?.pushViewController(BillDetailsVC, animated: true)
     }
     
-    
-
 }
