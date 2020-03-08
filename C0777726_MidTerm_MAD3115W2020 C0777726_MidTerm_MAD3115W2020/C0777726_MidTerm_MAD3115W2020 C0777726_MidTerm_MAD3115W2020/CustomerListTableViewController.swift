@@ -46,11 +46,14 @@ extension CustomerListTableViewController: UITableViewDataSource, UITableViewDel
     }
    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
-        let c = customerNames[indexPath.row]
-        print(c.fullName)
-        self.performSegue(withIdentifier: "segueBillDetails", sender: self)
-
-
+        let customer = SingletonData.getInstance().getAllCustomers()
+        let selectedCustomer = customer[indexPath.row]
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let BillDetailsVC = sb.instantiateViewController(identifier: "BillDetailsVC") as ShowBillDetailsViewController
+        BillDetailsVC.customer = selectedCustomer
+        self.navigationController?.pushViewController(BillDetailsVC, animated: true)
     }
+    
+    
 
 }

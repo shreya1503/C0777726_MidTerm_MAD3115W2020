@@ -199,7 +199,7 @@
         <!--Show Bill Details View Controller-->
         <scene sceneID="4tS-Sg-6TE">
             <objects>
-                <viewController title="Show Bill Details View Controller" id="yAl-ro-FW5" customClass="ShowBillDetailsViewController" customModule="C0777726_MidTerm_MAD3115W2020_C0777726_MidTerm_MAD3115W2020" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BillDetailsVC" title="Show Bill Details View Controller" id="yAl-ro-FW5" customClass="ShowBillDetailsViewController" customModule="C0777726_MidTerm_MAD3115W2020_C0777726_MidTerm_MAD3115W2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CUA-cr-DAc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
