@@ -19,8 +19,7 @@
 		9BEFCE0A24145664006569F6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0924145664006569F6 /* Customer.swift */; };
 		9BEFCE0C2414595F006569F6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0B2414595F006569F6 /* Extension.swift */; };
 		9BEFCE0E24145B97006569F6 /* ShowBillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0D24145B97006569F6 /* ShowBillDetailsViewController.swift */; };
-		9BEFCE1024145DAF006569F6 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0F24145DAF006569F6 /* TextFieldExtension.swift */; };
-		9BEFCE1224146513006569F6 /* DataRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE1124146513006569F6 /* DataRepo.swift */; };
+		9BEFCE1224146513006569F6 /* SingletonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE1124146513006569F6 /* SingletonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +37,7 @@
 		9BEFCE0924145664006569F6 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9BEFCE0B2414595F006569F6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		9BEFCE0D24145B97006569F6 /* ShowBillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBillDetailsViewController.swift; sourceTree = "<group>"; };
-		9BEFCE0F24145DAF006569F6 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
-		9BEFCE1124146513006569F6 /* DataRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepo.swift; sourceTree = "<group>"; };
+		9BEFCE1124146513006569F6 /* SingletonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +83,7 @@
 				9BEFCE0924145664006569F6 /* Customer.swift */,
 				9BEFCE0B2414595F006569F6 /* Extension.swift */,
 				9BEFCE0D24145B97006569F6 /* ShowBillDetailsViewController.swift */,
-				9BEFCE0F24145DAF006569F6 /* TextFieldExtension.swift */,
-				9BEFCE1124146513006569F6 /* DataRepo.swift */,
+				9BEFCE1124146513006569F6 /* SingletonData.swift */,
 			);
 			path = "C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020";
 			sourceTree = "<group>";
@@ -166,8 +163,7 @@
 				9BEFCE0E24145B97006569F6 /* ShowBillDetailsViewController.swift in Sources */,
 				9B6C92E62411DE03004DEB06 /* LoginViewController.swift in Sources */,
 				9BEFCE0A24145664006569F6 /* Customer.swift in Sources */,
-				9BEFCE1224146513006569F6 /* DataRepo.swift in Sources */,
-				9BEFCE1024145DAF006569F6 /* TextFieldExtension.swift in Sources */,
+				9BEFCE1224146513006569F6 /* SingletonData.swift in Sources */,
 				9B6C92F62411E3EE004DEB06 /* CustomerListTableViewController.swift in Sources */,
 				9BA1634024130577007940E3 /* AddNewCustomerViewController.swift in Sources */,
 				9B6C92E22411DE03004DEB06 /* AppDelegate.swift in Sources */,

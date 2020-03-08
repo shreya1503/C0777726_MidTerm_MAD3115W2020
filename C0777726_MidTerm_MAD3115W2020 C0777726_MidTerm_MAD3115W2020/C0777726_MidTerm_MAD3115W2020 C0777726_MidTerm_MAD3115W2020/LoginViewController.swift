@@ -35,46 +35,47 @@ class LoginViewController: UIViewController
         }
     }
        
-    @IBAction func btnLogin(_ sender: UIBarButtonItem)
+    @IBAction func btnLogin(_ sender: UIButton)
     {
         
-               if self.txtEmail.text == "Shreya@gmail.com" && self.txtPassword.text == "Shreya123"
-                {
-                    let userDefault = UserDefaults.standard
-                    if switchRemember.isOn
-                    {
-                        
-                        userDefault.setValue(txtEmail.text, forKey: "Email")
-                        userDefault.set(txtPassword.text, forKey: "Password")
-                    }
-                    else
-                    {
-                        userDefault.removeObject(forKey: "Email")
-                        userDefault.removeObject(forKey: "Password")
-                    }
-                }
-                else
-                {
-                    if self.txtEmail.text == " "
-                    {
-                        alertMessage(message: "Email Is Empty")
-                    }
-                    else if self.txtPassword.text == " "
-                    {
-                        alertMessage(message: "Password Is Empty")
-                    }
-                    else
-                    {
-                        alertMessage(message: "Please Enter Valid Email Or Password")
-                    }
-                }
+        if self.txtEmail.text == "Shreya@gmail.com" && self.txtPassword.text == "Shreya123"
+                      {
+                          let userDefault = UserDefaults.standard
+                          if switchRemember.isOn
+                          {
+                              
+                              userDefault.setValue(txtEmail.text, forKey: "Email")
+                              userDefault.set(txtPassword.text, forKey: "Password")
+                          }
+                          else
+                          {
+                              userDefault.removeObject(forKey: "Email")
+                              userDefault.removeObject(forKey: "Password")
+                          }
+                      }
+                      else
+                      {
+                          if self.txtEmail.text == " "
+                          {
+                              alertMessage(message: "Email Is Empty")
+                          }
+                          else if self.txtPassword.text == " "
+                          {
+                              alertMessage(message: "Password Is Empty")
+                          }
+                          else
+                          {
+                              alertMessage(message: "Please Enter Valid Email Or Password")
+                          }
+                      }
     }
+             
 
     func alertMessage(message : String)
     {
         
         let alertController = UIAlertController(title: "ERROR", message: "Check Your Email ID Or Password", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "Invalid Email Or Password", style: .default))
+        alertController.addAction(UIAlertAction(title: "DISMISS", style: .default))
 
         self.present(alertController, animated: true, completion: nil)
         
