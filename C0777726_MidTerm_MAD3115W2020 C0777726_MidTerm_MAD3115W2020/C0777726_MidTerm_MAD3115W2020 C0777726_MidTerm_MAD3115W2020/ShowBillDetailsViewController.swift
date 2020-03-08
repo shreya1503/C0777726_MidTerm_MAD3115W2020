@@ -8,23 +8,27 @@
 
 import UIKit
 
-class ShowBillDetailsViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ShowBillDetailsViewController: UIViewController
+{
+    
+    var customer : Customer?
+    
+    @IBOutlet weak var lblCustID: UILabel!
+    @IBOutlet weak var lblCustEmail: UILabel!
+    @IBOutlet weak var lblCustLastName: UILabel!
+    @IBOutlet weak var lblCustFirstName: UILabel!
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.lblCustID.text = customer?.customerID
+        self.lblCustFirstName.text = customer?.firstName
+        self.lblCustLastName.text = customer?.lastName
+        self.lblCustEmail.text = customer?.emailID
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }
