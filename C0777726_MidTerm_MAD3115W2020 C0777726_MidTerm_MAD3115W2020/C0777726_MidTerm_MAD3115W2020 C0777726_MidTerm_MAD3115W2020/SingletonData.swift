@@ -42,9 +42,9 @@ class SingletonData
     var c5 = Customer(customerID : "C005", firstName : "Manish", lastName : "Pawar", emailID : "Manish34@gmail.com")
     
     
-//    var m1 = Mobile(billID: "MOB001", billDate: Date.from(year: 2019, month: 01, day: 20) ?? Date(), billType: BillType.MOBILE, mobileManufacturerName: "Galaxy S7", planName: "Prepaid Talk + Text plan", mobileNumber: "+1(597)-963-9874", internetGBUsed: 5.0, minuteUsed: 356)
-//
-//       var m2 = Mobile(billID: "MOB002", billDate: Date.from(year: 2018, month: 08, day: 15) ?? Date(), billType: BillType.MOBILE, mobileManufacturerName: "Apple", planName: "Prepaid + Text plan + International Calls", mobileNumber: "6475581028", internetGBUsed: 2.0, minuteUsed: 250)
+    var m1 = Mobile(billID: "MOB001", billDate: Date.from(year: 2017, month: 11, day: 25) ?? Date(), billType: BillType.MOBILE, mobileManufacturerName: "Galaxy S7", planName: "Prepaid Talk + Text plan", mobileNumber: "+1(597)-963-9874", internetGBUsed: 4.0, minuteUsed: 258)
+
+       var m2 = Mobile(billID: "MOB002", billDate: Date.from(year: 2019, month: 06, day: 14) ?? Date(), billType: BillType.MOBILE, mobileManufacturerName: "Apple", planName: "Prepaid + Text plan + International Calls", mobileNumber: "6475581028", internetGBUsed: 6.0, minuteUsed: 159)
     
     func loadData()
     {
