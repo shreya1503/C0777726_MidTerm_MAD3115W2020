@@ -53,6 +53,9 @@ class SingletonData
     var i3 = Internet(billID: "INT003", billDate: Date.from(year: 2017, month: 01, day: 29) ?? Date(), billType: BillType.INTERNET, providerName: "Chart", internetGBUsed: 123)
 
 
+    var h1 = Hydro(billID: "HYD001", billDate: Date.from(year: 2016, month: 12, day: 23) ?? Date(), billType: BillType.HYDRO, agencyName: "Planet Energy", unitConsumed: 59)
+    var h2 = Hydro(billID: "HYD002", billDate: Date.from(year: 2020, month: 11, day: 25) ?? Date(), billType: BillType.HYDRO, agencyName: "Home Plan", unitConsumed: 85)
+    
     func loadData()
     {
         
