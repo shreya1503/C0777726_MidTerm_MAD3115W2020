@@ -62,16 +62,16 @@ class ShowBillDetailsViewController: UIViewController
         }
         
         lblCustID.text = "ID : \(customerID)"
-        lblCustFirstName.text = "Name : \(firstName)"
-        lblCustLastName.text = "Name : \(lastName)"
+        lblCustFirstName.text = "First Name : \(firstName)"
+        lblCustLastName.text = "Last Name : \(lastName)"
         lblCustEmail.text = "Email ID : \(customerEmail)"
         
     }
     
     func AlertMessage(message: String)
        {
-           let alert = UIAlertController(title: "Sorry", message: message, preferredStyle: .alert)
-           let okButton = UIAlertAction(title: "Ok", style: .default, handler: nil)
+           let alert = UIAlertController(title: "Try Again", message: message, preferredStyle: .alert)
+           let okButton = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
            alert.addAction(okButton)
            self.present(alert, animated: true)
            

@@ -72,21 +72,21 @@ class DetailedBillViewController: UIViewController
             
             if bill.billType == .HYDRO
             {
-                //cell.imgBill.image = UIImage(named:"hydro")
+                cell.imgBill.image = UIImage(named:"hydro-power")
                 cell.lblBillID.text = " Bill Id: \(bill.billID)"
                 cell.lblBillDate.text = " Bill Date: \(bill.billDate.getForamttedDate())"
                 cell.lblBillAmount.text = " Bill Amount: $\(bill.billAmount)"
             }
             else if bill.billType == .INTERNET
             {
-                //cell.imgBill.image = UIImage(named:"internet")
+                cell.imgBill.image = UIImage(named:"modem")
                 cell.lblBillID.text = " Bill Id: \(bill.billID)"
                 cell.lblBillDate.text = " Bill Date: \(bill.billDate.getForamttedDate())"
                 cell.lblBillAmount.text = " Bill Amount: $\(bill.billAmount)"
             }
             else if bill.billType == .MOBILE
             {
-                //cell.imgBill.image = UIImage(named:"mob")
+                cell.imgBill.image = UIImage(named:"smartphone")
                 cell.lblBillID.text = " Bill Id: \(bill.billID)"
                 cell.lblBillDate.text = " Bill Date: \(bill.billDate.getForamttedDate())"
                 cell.lblBillAmount.text = " Bill Amount: $\(bill.billAmount)"
@@ -104,7 +104,9 @@ class DetailedBillViewController: UIViewController
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
            // let b = bills[indexPath.row]
         }
-        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+        {
+            
             return CGFloat(200.0)
         }
         
