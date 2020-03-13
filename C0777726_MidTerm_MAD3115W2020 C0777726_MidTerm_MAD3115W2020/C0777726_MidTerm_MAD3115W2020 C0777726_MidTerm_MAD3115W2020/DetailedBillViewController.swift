@@ -21,7 +21,7 @@ class DetailedBillViewController: UIViewController
     {
         super.viewDidLoad()
 
-  
+        
      
     }
     

@@ -34,4 +34,10 @@ class Customer
         bills.updateValue(bill, forKey : billID)
     }
     
+    func removeBill(bill : Bill, billID : String)
+    {
+        bills.removeValue(forKey : billID)
+        print("Bill of ID \(billID) Removed")
+    }
+    
 }
