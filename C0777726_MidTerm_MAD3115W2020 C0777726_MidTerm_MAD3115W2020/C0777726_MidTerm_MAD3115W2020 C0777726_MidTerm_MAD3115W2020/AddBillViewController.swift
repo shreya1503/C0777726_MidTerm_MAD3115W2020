@@ -54,7 +54,7 @@ class AddBillViewController: UIViewController
         {
             
             txtInternetGBUsed.isHidden = true
-            txtIProviderName.isHidden = true
+            txtIProviderName.isHidden = true
             txtHydroUnitsUsed.isHidden = true
             txtHydroAgencyName.isHidden = true
             

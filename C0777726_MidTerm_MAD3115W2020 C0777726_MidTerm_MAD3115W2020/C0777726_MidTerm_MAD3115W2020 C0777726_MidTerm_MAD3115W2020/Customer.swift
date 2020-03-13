@@ -58,6 +58,7 @@ class Customer
         {
           dummyTotalBillToPay += i.value.billAmount
         }
+    
         return dummyTotalBillToPay
     }
     
