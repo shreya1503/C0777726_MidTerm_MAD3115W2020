@@ -59,6 +59,11 @@ class SingletonData
     func loadData()
     {
         
+        c1.addBill(bill: m1, billID: m1.billID)
+        c1.addBill(bill: h1, billID: h1.billID)
+        c1.addBill(bill: i1, billID: i1.billID)
+               
+        
         
     }
     
