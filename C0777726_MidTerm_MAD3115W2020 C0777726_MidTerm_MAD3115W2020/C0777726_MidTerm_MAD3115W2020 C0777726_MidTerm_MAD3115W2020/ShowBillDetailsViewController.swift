@@ -42,6 +42,31 @@ class ShowBillDetailsViewController: UIViewController
         
     }
     
+    func showSelectedCustomerDetails()
+    {
+        guard let customerID = self.customer?.customerID else
+        {
+            return
+        }
+        guard let firstName = self.customer?.firstName else
+        {
+            return
+        }
+        guard let lastName = self.customer?.lastName else
+        {
+            return
+        }
+        guard let customerEmail = self.customer?.emailID else
+        {
+            return
+        }
+        
+        lblCustID.text = "ID : \(customerID)"
+        lblCustFirstName.text = "Name : \(firstName)"
+        lblCustLastName.text = "Name : \(lastName)"
+        lblCustEmail.text = "Email ID : \(customerEmail)"
+        
+    }
     
     func AlertMessage(message: String)
        {

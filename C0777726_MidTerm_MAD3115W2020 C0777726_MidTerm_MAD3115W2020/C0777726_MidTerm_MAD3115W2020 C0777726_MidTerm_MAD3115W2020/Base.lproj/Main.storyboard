@@ -269,6 +269,9 @@
                                 <rect key="frame" x="157" y="486" width="109" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="View Bills"/>
+                                <connections>
+                                    <action selector="btnViewBills:" destination="yAl-ro-FW5" eventType="touchUpInside" id="8vx-dH-PBR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
