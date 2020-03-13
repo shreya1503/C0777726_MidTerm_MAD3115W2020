@@ -21,6 +21,7 @@
 		9B6C92EE2411DE04004DEB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6C92EC2411DE04004DEB06 /* LaunchScreen.storyboard */; };
 		9B6C92F62411E3EE004DEB06 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C92F52411E3EE004DEB06 /* CustomerListTableViewController.swift */; };
 		9B88270D241C0A80007D7FF8 /* AddBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88270C241C0A80007D7FF8 /* AddBillViewController.swift */; };
+		9B88270F241C0B24007D7FF8 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88270E241C0B24007D7FF8 /* BillTableViewCell.swift */; };
 		9BA1633E24130459007940E3 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1633D24130459007940E3 /* Image.png */; };
 		9BA1634024130577007940E3 /* AddNewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1633F24130577007940E3 /* AddNewCustomerViewController.swift */; };
 		9BEFCE0A24145664006569F6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEFCE0924145664006569F6 /* Customer.swift */; };
@@ -46,6 +47,7 @@
 		9B6C92EF2411DE04004DEB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B6C92F52411E3EE004DEB06 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 		9B88270C241C0A80007D7FF8 /* AddBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillViewController.swift; sourceTree = "<group>"; };
+		9B88270E241C0B24007D7FF8 /* BillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
 		9BA1633D24130459007940E3 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image.png; path = Assets.xcassets/Image.imageset/Image.png; sourceTree = "<group>"; };
 		9BA1633F24130577007940E3 /* AddNewCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCustomerViewController.swift; sourceTree = "<group>"; };
 		9BEFCE0924145664006569F6 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				9B41BADC241B13E100DBBDFB /* Internet.swift */,
 				9B41BADE241B14D600DBBDFB /* CalculateBill.swift */,
 				9B88270C241C0A80007D7FF8 /* AddBillViewController.swift */,
+				9B88270E241C0B24007D7FF8 /* BillTableViewCell.swift */,
 			);
 			path = "C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				9BEFCE0E24145B97006569F6 /* ShowBillDetailsViewController.swift in Sources */,
 				9B88270D241C0A80007D7FF8 /* AddBillViewController.swift in Sources */,
 				9B41BAD7241B13B200DBBDFB /* Bill.swift in Sources */,
+				9B88270F241C0B24007D7FF8 /* BillTableViewCell.swift in Sources */,
 				9B41BADB241B13D400DBBDFB /* Hydro.swift in Sources */,
 				9B6C92E62411DE03004DEB06 /* LoginViewController.swift in Sources */,
 				9B41BAD9241B13C500DBBDFB /* Mobile.swift in Sources */,
