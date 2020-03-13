@@ -18,10 +18,8 @@ class Customer
          return "\(firstName) \(lastName)"
        }
        var emailID : String
-    
-    lazy var bills = [String : Bill]()
-    
-    var totalBillToPay : Double = 0.0
+       lazy var bills = [String : Bill]()
+       var totalBillToPay : Double = 0.0
         
        init(customerID : String, firstName : String, lastName : String, emailID : String)
        {
@@ -30,4 +28,10 @@ class Customer
          self.lastName = lastName
          self.emailID = emailID
        }
+    
+    func addBill(bill : Bill, billID : String)
+    {
+        bills.updateValue(bill, forKey : billID)
+    }
+    
 }
