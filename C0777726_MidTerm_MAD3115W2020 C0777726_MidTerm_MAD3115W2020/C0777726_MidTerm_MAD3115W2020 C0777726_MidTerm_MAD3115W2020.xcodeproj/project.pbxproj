@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B41BAD5241B134C00DBBDFB /* DetailedBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B41BAD4241B134C00DBBDFB /* DetailedBillViewController.swift */; };
 		9B6C92E22411DE03004DEB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C92E12411DE03004DEB06 /* AppDelegate.swift */; };
 		9B6C92E42411DE03004DEB06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C92E32411DE03004DEB06 /* SceneDelegate.swift */; };
 		9B6C92E62411DE03004DEB06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C92E52411DE03004DEB06 /* LoginViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B41BAD4241B134C00DBBDFB /* DetailedBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedBillViewController.swift; sourceTree = "<group>"; };
 		9B6C92DE2411DE03004DEB06 /* C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6C92E12411DE03004DEB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B6C92E32411DE03004DEB06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				9BEFCE0B2414595F006569F6 /* Extension.swift */,
 				9BEFCE0D24145B97006569F6 /* ShowBillDetailsViewController.swift */,
 				9BEFCE1124146513006569F6 /* SingletonData.swift */,
+				9B41BAD4241B134C00DBBDFB /* DetailedBillViewController.swift */,
 			);
 			path = "C0777726_MidTerm_MAD3115W2020 C0777726_MidTerm_MAD3115W2020";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				9BEFCE0E24145B97006569F6 /* ShowBillDetailsViewController.swift in Sources */,
 				9B6C92E62411DE03004DEB06 /* LoginViewController.swift in Sources */,
+				9B41BAD5241B134C00DBBDFB /* DetailedBillViewController.swift in Sources */,
 				9BEFCE0A24145664006569F6 /* Customer.swift in Sources */,
 				9BEFCE1224146513006569F6 /* SingletonData.swift in Sources */,
 				9B6C92F62411E3EE004DEB06 /* CustomerListTableViewController.swift in Sources */,
