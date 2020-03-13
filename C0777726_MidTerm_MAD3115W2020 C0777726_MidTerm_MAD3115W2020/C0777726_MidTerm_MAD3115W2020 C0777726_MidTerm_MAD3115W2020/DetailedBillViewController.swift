@@ -15,7 +15,7 @@ class DetailedBillViewController: UIViewController
 @IBOutlet weak var tbtBillDetail: UITableView!
 
       var customer : Customer?
-    
+      var bills : [Bill] = []
     
     override func viewDidLoad()
     {
