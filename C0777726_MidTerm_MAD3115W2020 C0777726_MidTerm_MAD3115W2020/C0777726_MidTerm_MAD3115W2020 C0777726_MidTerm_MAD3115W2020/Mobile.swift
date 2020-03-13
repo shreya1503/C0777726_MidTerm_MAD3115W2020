@@ -26,7 +26,7 @@ class Mobile: Bill
        self.mobileNumber=mobileNumber
        self.internetGBUsed=internetGBUsed
        self.minuteUsed=minuteUsed
-       super.init(billID: billID, billDate: billDate, billType: billType)
+       super.init(billID : billID, billDate : billDate, billType : billType)
        self.billAmount = calculateTotalBill()
    }
 }
