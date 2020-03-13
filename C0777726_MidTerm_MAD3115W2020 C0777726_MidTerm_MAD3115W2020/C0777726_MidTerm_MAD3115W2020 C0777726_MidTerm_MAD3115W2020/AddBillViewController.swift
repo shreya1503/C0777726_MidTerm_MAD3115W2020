@@ -110,23 +110,6 @@ class AddBillViewController: UIViewController, UITextFieldDelegate
             
             txtBillID.isHidden = false
             txtBillDate.isHidden = false
-            txtIProviderName.isHidden = false
-            txtInternetGBUsed.isHidden = false
-            txtMobManufacturerName.isHidden = true
-            txtMobileMinUsed.isHidden = true
-            txtMobileNumber.isHidden = true
-            txtMobileGBUsed.isHidden = true
-            txtPlanName.isHidden = true
-            txtHydroAgencyName.isHidden = true
-            txtHydroUnitsUsed.isHidden = true
-            
-            
-        }
-        
-        else if sender.selectedSegmentIndex == 2
-        {
-            txtBillID.isHidden = false
-            txtBillDate.isHidden = false
             txtMobManufacturerName.isHidden = false
             txtMobileMinUsed.isHidden = false
             txtMobileNumber.isHidden = false
@@ -134,6 +117,25 @@ class AddBillViewController: UIViewController, UITextFieldDelegate
             txtPlanName.isHidden = false
             txtIProviderName.isHidden = true
             txtInternetGBUsed.isHidden = true
+            txtHydroAgencyName.isHidden = true
+            txtHydroUnitsUsed.isHidden = true
+                     
+            
+        }
+        
+        else if sender.selectedSegmentIndex == 2
+        {
+            
+            
+            txtBillID.isHidden = false
+            txtBillDate.isHidden = false
+            txtIProviderName.isHidden = false
+            txtInternetGBUsed.isHidden = false
+            txtMobManufacturerName.isHidden = true
+            txtMobileMinUsed.isHidden = true
+            txtMobileNumber.isHidden = true
+            txtMobileGBUsed.isHidden = true
+            txtPlanName.isHidden = true
             txtHydroAgencyName.isHidden = true
             txtHydroUnitsUsed.isHidden = true
             
@@ -152,16 +154,18 @@ class AddBillViewController: UIViewController, UITextFieldDelegate
         }
         else if segmentBillType.selectedSegmentIndex == 1
         {
-          let addBillObj = Internet(billID: txtBillID.text!, billDate: (txtBillDate.text?.toDate())!, billType: BillType.INTERNET, providerName: txtIProviderName.text!, internetGBUsed: Double(txtInternetGBUsed.text!)!)
-                     
-                     customer?.addBill(bill:addBillObj, billID: txtBillID.text!)
-                 }
+            let addBillobj = Mobile(billID: txtBillID.text!, billDate: (txtBillDate.text?.toDate())!, billType: BillType.MOBILE, mobileManufacturerName: txtMobManufacturerName.text!, planName: txtPlanName.text!, mobileNumber: txtMobileNumber.text!, internetGBUsed: Double(txtMobileGBUsed.text!)!, minuteUsed: Int(txtMobileMinUsed.text!)!)
+          
+            customer?.addBill(bill: addBillobj, billID: txtBillID.text!)
+        }
                  else if segmentBillType.selectedSegmentIndex == 2
                  
                  {
-                     let addBillobj = Mobile(billID: txtBillID.text!, billDate: (txtBillDate.text?.toDate())!, billType: BillType.MOBILE, mobileManufacturerName: txtMobManufacturerName.text!, planName: txtPlanName.text!, mobileNumber: txtMobileNumber.text!, internetGBUsed: Double(txtMobileGBUsed.text!)!, minuteUsed: Int(txtMobileMinUsed.text!)!)
+                    
+                    let addBillObj = Internet(billID: txtBillID.text!, billDate: (txtBillDate.text?.toDate())!, billType: BillType.INTERNET, providerName: txtIProviderName.text!, internetGBUsed: Double(txtInternetGBUsed.text!)!)
+                    
+                    customer?.addBill(bill:addBillObj, billID: txtBillID.text!)
                      
-                     customer?.addBill(bill: addBillobj, billID: txtBillID.text!)
                  }
                  
                  let sb = UIStoryboard(name: "Main", bundle: nil)
