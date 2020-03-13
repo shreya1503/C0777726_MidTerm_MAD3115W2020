@@ -46,6 +46,13 @@ class SingletonData
 
        var m2 = Mobile(billID: "MOB002", billDate: Date.from(year: 2019, month: 06, day: 14) ?? Date(), billType: BillType.MOBILE, mobileManufacturerName: "Apple", planName: "Prepaid + Text plan + International Calls", mobileNumber: "6475581028", internetGBUsed: 6.0, minuteUsed: 159)
     
+
+    
+    var i1 = Internet(billID: "INT001", billDate: Date.from(year: 2018, month: 05, day: 24) ?? Date(), billType: BillType.INTERNET, providerName: "Bell", internetGBUsed: 550.0)
+    var i2 = Internet(billID: "INT002", billDate: Date.from(year: 2019, month: 12, day: 16) ?? Date(), billType: BillType.INTERNET, providerName: "Virgin", internetGBUsed: 250)
+    var i3 = Internet(billID: "INT003", billDate: Date.from(year: 2017, month: 01, day: 29) ?? Date(), billType: BillType.INTERNET, providerName: "Chart", internetGBUsed: 123)
+
+
     func loadData()
     {
         
