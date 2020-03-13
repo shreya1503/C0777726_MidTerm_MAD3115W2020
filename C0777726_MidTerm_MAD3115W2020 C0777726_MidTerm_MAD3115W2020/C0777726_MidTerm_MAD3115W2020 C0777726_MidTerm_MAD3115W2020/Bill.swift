@@ -8,4 +8,9 @@
 
 import Foundation
 
+enum BillType
+{
+    case INTERNET, MOBILE, HYDRO, INSURANCE
+}
+
 
