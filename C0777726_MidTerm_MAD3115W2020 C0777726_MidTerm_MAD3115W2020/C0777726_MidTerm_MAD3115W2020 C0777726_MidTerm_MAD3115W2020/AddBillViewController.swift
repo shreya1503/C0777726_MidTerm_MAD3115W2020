@@ -13,13 +13,31 @@ class AddBillViewController: UIViewController
 
      var customer: Customer?
     
+    
+    @IBOutlet weak var txtBillID: UITextField!
+    @IBOutlet weak var txtBillDate: UITextField!
+    @IBOutlet weak var txtIProviderName: UITextField!
+    @IBOutlet weak var txtMobManufacturerName: UITextField!
+    @IBOutlet weak var txtInternetGBUsed: UITextField!
+    @IBOutlet weak var txtPlanName: UITextField!
+    @IBOutlet weak var txtMobileNumber: UITextField!
+    @IBOutlet weak var txtMobileGBUsed: UITextField!
+    @IBOutlet weak var txtMobileMinUsed: UITextField!
+    @IBOutlet weak var txtHydroAgencyName: UITextField!
+    @IBOutlet weak var txtHydroUnitsUsed: UITextField!
+    
+    
     override func viewDidLoad()
+    
     {
         super.viewDidLoad()
-        self.navigationItem.title = "Add New Bill"
         self.title = "Add New Bill"
     }
     
-
+    @IBAction func btnAddBill(_ sender: Any)
+    {
+        
+    }
+    
 
 }
