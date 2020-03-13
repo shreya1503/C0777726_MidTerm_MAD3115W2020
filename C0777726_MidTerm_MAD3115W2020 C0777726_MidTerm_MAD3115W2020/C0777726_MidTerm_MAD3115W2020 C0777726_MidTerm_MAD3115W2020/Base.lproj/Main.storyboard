@@ -286,14 +286,26 @@
             </objects>
             <point key="canvasLocation" x="3466.666666666667" y="140.625"/>
         </scene>
-        <!--View Controller-->
+        <!--Detsils Of Bills -->
         <scene sceneID="KUG-XM-odS">
             <objects>
-                <viewController id="1UV-3J-Ice" sceneMemberID="viewController">
+                <viewController title="Detsils Of Bills " id="1UV-3J-Ice" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CZ5-8b-xJf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5M6-ED-xfz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pjd-fx-yFD" firstAttribute="bottom" secondItem="5M6-ED-xfz" secondAttribute="bottom" id="4Mq-MK-MTL"/>
+                            <constraint firstItem="5M6-ED-xfz" firstAttribute="leading" secondItem="pjd-fx-yFD" secondAttribute="leading" id="UXj-Ye-F4V"/>
+                            <constraint firstItem="pjd-fx-yFD" firstAttribute="trailing" secondItem="5M6-ED-xfz" secondAttribute="trailing" id="iEM-sl-UbO"/>
+                            <constraint firstItem="5M6-ED-xfz" firstAttribute="top" secondItem="pjd-fx-yFD" secondAttribute="top" id="opi-ND-98M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pjd-fx-yFD"/>
                     </view>
                 </viewController>
