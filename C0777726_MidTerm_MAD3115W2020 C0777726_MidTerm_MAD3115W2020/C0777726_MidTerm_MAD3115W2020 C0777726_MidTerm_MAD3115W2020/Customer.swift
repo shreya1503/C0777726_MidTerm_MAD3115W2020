@@ -40,4 +40,15 @@ class Customer
         print("Bill of ID \(billID) Removed")
     }
     
+    func getAllbills() -> [Bill]
+     {
+         var allBills = [Bill] ()
+         for bill in bills
+         {
+             allBills.append(bill.value)
+         }
+         return allBills
+         
+     }
+    
 }
