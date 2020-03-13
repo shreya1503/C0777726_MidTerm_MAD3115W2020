@@ -72,6 +72,14 @@ class SingletonData
         
         c4.addBill(bill: i3, billID: i3.billID)
         c4.addBill(bill: m1, billID: m1.billID)
+     
+        
+        custList.updateValue(c1, forKey: c1.customerID)
+        custList.updateValue(c2, forKey: c2.customerID)
+        custList.updateValue(c3, forKey: c3.customerID)
+        custList.updateValue(c4, forKey: c4.customerID)
+        custList.updateValue(c5, forKey: c5.customerID)
+        
         
     }
     
