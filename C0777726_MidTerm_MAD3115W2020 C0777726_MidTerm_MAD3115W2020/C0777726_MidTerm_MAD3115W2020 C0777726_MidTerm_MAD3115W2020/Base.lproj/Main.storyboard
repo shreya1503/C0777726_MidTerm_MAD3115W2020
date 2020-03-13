@@ -352,10 +352,29 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pjd-fx-yFD"/>
                     </view>
+                    <connections>
+                        <outlet property="lblTotalBill" destination="shN-K3-MhG" id="ex6-hL-x8M"/>
+                        <outlet property="tbtBillDetail" destination="5M6-ED-xfz" id="1Nl-md-OKx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pYk-CF-JA3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4247.826086956522" y="140.625"/>
+        </scene>
+        <!--Add New Bill-->
+        <scene sceneID="yKT-ii-P8m">
+            <objects>
+                <viewController title="Add New Bill" id="IaS-4L-vGM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kSZ-8Y-qUd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="IOw-4V-Yf3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A9D-Z7-A58" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5017" y="143"/>
         </scene>
     </scenes>
     <resources>
