@@ -58,7 +58,7 @@ extension CustomerListTableViewController: UITableViewDataSource, UITableViewDel
 
 
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let custDetailsVC = sb.instantiateViewController(identifier: "custDetailsVC") as ShowBillDetailsViewController
+        let custDetailsVC = sb.instantiateViewController(identifier: "BillDetailsVC") as ShowBillDetailsViewController
         custDetailsVC.customer = selectedCustomer
         
         
