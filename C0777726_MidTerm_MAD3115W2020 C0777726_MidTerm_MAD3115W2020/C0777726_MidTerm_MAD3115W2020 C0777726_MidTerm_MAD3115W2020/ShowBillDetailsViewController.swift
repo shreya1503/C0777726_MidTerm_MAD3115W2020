@@ -23,12 +23,33 @@ class ShowBillDetailsViewController: UIViewController
     {
         super.viewDidLoad()
 
-        self.lblCustID.text = customer?.customerID
-        self.lblCustFirstName.text = customer?.firstName
-        self.lblCustLastName.text = customer?.lastName
-        self.lblCustEmail.text = customer?.emailID
+    
     }
     
-
+    @IBAction func btnViewBills(_ sender: Any)
+    {
+        if customer?.bills.count != 0
+        {
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            let DetailedBillVC = sb.instantiateViewController(identifier: "DetailedBillVC") as DetailedBillViewController
+            DetailedBillVC.customer = self.customer
+            navigationController?.pushViewController(DetailedBillVC, animated: true)
+        }
+        else
+        {
+            AlertMessage(message: "Selected Customer Has No Bills")
+        }
+        
+    }
+    
+    
+    func AlertMessage(message: String)
+       {
+           let alert = UIAlertController(title: "Sorry", message: message, preferredStyle: .alert)
+           let okButton = UIAlertAction(title: "Ok", style: .default, handler: nil)
+           alert.addAction(okButton)
+           self.present(alert, animated: true)
+           
+       }
    
 }
