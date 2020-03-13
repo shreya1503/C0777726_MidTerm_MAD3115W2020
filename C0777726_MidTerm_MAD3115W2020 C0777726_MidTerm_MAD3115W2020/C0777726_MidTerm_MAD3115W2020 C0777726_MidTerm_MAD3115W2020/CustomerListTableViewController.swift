@@ -21,6 +21,11 @@ class CustomerListTableViewController: UIViewController {
         customerNames = SingletonData.getInstance().getAllCustomers()
         let userDefault = UserDefaults.standard
          
+        
+        func viewWillAppear(_ animated: Bool)
+        {
+               tblCustomer.reloadData()
+        }
     }
     
 }
