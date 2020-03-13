@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class Mobile: Bill
+{
+    var mobileManufacturerName: String = ""
+    var planName: String = ""
+    var mobileNumber: String = ""
+    var internetGBUsed: Double = 0.0
+    var minuteUsed: Int = 0
+    var ratePerGB: Double = 7.5
+    var ratePerMinute: Double = 0.50
+    
+}

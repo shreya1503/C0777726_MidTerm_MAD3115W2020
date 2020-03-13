@@ -13,4 +13,22 @@ enum BillType
     case INTERNET, MOBILE, HYDRO, INSURANCE
 }
 
-
+class Bill : CalculateBill
+{
+    var billID : String
+    var billDate : Date
+    var billType : BillType
+    var billAmount : Double = 0.0
+    
+    init(billID : String, billDate : Date, billType : BillType)
+    {
+        self.billID = billID
+        self.billDate = billDate
+        self.billType = billType
+    }
+    
+    func calculateTotalBill() -> Double
+    {
+        return 0.0
+    }
+}
