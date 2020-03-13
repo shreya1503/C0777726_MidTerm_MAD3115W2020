@@ -12,5 +12,9 @@ class BillTableViewCell: UITableViewCell
 {
 
     
-
+    @IBOutlet weak var imgBill: UIImageView!
+    
+    @IBOutlet weak var lblBillID: UILabel!
+    @IBOutlet weak var lblBillDate: UILabel!
+    @IBOutlet weak var lblBillAmount: UILabel!
 }

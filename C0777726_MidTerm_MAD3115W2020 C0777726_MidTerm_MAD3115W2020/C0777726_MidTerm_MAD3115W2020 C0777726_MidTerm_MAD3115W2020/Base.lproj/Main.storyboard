@@ -298,7 +298,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="677"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="148" id="5VU-mW-JOG">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="148" id="5VU-mW-JOG" customClass="BillTableViewCell" customModule="C0777726_MidTerm_MAD3115W2020_C0777726_MidTerm_MAD3115W2020" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="148"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5VU-mW-JOG" id="ZLH-cb-md0">
@@ -332,6 +332,12 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imgBill" destination="Wb0-qZ-x89" id="Wah-dt-n3j"/>
+                                            <outlet property="lblBillAmount" destination="Kzg-Sc-diE" id="Lxw-DD-mot"/>
+                                            <outlet property="lblBillDate" destination="oJD-Vh-yFC" id="EoP-yF-Iar"/>
+                                            <outlet property="lblBillID" destination="OFL-Rd-biY" id="uor-uh-qlD"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
