@@ -63,7 +63,8 @@ class SingletonData
         c1.addBill(bill: h1, billID: h1.billID)
         c1.addBill(bill: i1, billID: i1.billID)
                
-        
+        c2.addBill(bill: h2, billID: m2.billID)
+        c2.addBill(bill: m2, billID: i2.billID)
         
     }
     
