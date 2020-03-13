@@ -16,8 +16,8 @@ class Hydro: Bill
 
     init(billID : String, billDate : Date, billType : BillType, agencyName : String, unitConsumed : Int)
     {
-        self.agencyName=agencyName
-        self.unitConsumed=unitConsumed
+        self.agencyName = agencyName
+        self.unitConsumed = unitConsumed
         super.init(billID : billID, billDate : billDate, billType : billType)
         self.billAmount = calculateTotalBill()
     }

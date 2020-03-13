@@ -503,6 +503,7 @@
                         <viewLayoutGuide key="safeArea" id="IOw-4V-Yf3"/>
                     </view>
                     <connections>
+                        <outlet property="segmentBillType" destination="aGX-Om-Ipm" id="7Zj-7c-W58"/>
                         <outlet property="txtBillDate" destination="nk6-fT-3ec" id="7Gv-Ly-0Rt"/>
                         <outlet property="txtBillID" destination="ETF-Wz-Loo" id="U8p-tH-jRU"/>
                         <outlet property="txtHydroAgencyName" destination="a8z-ko-qjQ" id="cij-1N-uzQ"/>
